@@ -4,7 +4,7 @@ public class LongestString {
 	public String longestStringMethod() {
 
 		String s = "The cow jumped over the moon.";
-		String[] word = s.split("hi ");
+		String[] word = s.split(" ");
 		String maxlethWord = "";
 		for (int i = 0; i < word.length; i++) {
 			if (word[i].length() >= maxlethWord.length()) {
